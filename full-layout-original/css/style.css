@@ -1,0 +1,184 @@
+/* GENERAL STYLING */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+img {
+    width: 100%;
+}
+section {
+    padding: 200px 0;
+}
+h2 {
+    font-size: 2.5em;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+p {
+    font-size: .9em;
+}
+/* NAVIGATION */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu .logo img {
+    width: 150px;
+}
+.menu .navicon {
+    width: 30px;
+}
+.menu nav {
+    display: none;
+    font-size: .9em;
+}
+.menu nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    margin: 0 10px;
+}
+.menu li a {
+    color: inherit;
+}
+/* HERO SECTION */
+
+.hero {
+    color: white;
+    text-align: center;
+    background: url('../img/sea-back.jpg') no-repeat center / cover;
+    padding: 200px 0 150px 0;
+}
+
+.hero p {
+    margin: 30px 0
+}
+
+/* INTRO SECTION */
+.intro .button {
+    margin: 40px 0;
+}
+/* SPONSORS SECTION */
+
+.sponsors h2 {
+    text-align: center;
+}
+
+
+.sponsors img {
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* FEATIURES SECTION */
+
+.features {
+    text-align: center;
+    background: rgb(238, 238, 238)
+    
+}
+
+.features hr {
+    border-color: black;
+    width: 50%;
+    margin: 80px auto;
+}
+
+.features article {
+    margin-bottom: 50px;
+}
+
+.features img {
+    width: 200px;
+}
+
+.features h3 {
+    margin: 40px 0
+}
+
+
+
+/* PROCESS SECTION */
+
+.process {
+    background: url('./../img/barco-fondo-mar.jpeg') no-repeat bottom left / cover;
+}
+
+
+/* BUY NOW SECTION  */
+
+.buy-now {
+    padding: 40px 0;
+    background: #272a2b;
+    color: white;
+}
+
+.buy-now h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+
+
+footer {
+    padding: 200px 0;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+
+
+/* BUTTONS */
+
+.button {
+    border: 1px solid;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    padding: 14px 0;
+    width: 228px;
+    font-size: .8em;
+    text-align: center;
+}
+
+.button.white {
+    color: white;
+}
+
+.button.dark {
+    color: black
+}
+
+.button.centered {
+    margin: 10px auto;
+}
+
+.button.block {
+    width: auto;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    
+    .menu nav {
+        display: block;
+    }
+
+    .menu .navicon {
+        display: none;
+    }
+
+    .features img {
+        width: 100px;
+    }
+
+}
